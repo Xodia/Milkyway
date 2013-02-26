@@ -24,8 +24,6 @@
 		7F44269A16C16A6E00370E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F44267216C16A6D00370E21 /* Foundation.framework */; };
 		7F4426A216C16A6F00370E21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F4426A016C16A6F00370E21 /* InfoPlist.strings */; };
 		7F4426A516C16A6F00370E21 /* MilkywayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4426A416C16A6F00370E21 /* MilkywayTests.m */; };
-		7F4426B316C1767A00370E21 /* MKCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4426B216C1767A00370E21 /* MKCViewController.m */; };
-		7F4426B616C176F900370E21 /* MKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4426B516C176F900370E21 /* MKCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +60,6 @@
 		7F4426A116C16A6F00370E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F4426A316C16A6F00370E21 /* MilkywayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MilkywayTests.h; sourceTree = "<group>"; };
 		7F4426A416C16A6F00370E21 /* MilkywayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MilkywayTests.m; sourceTree = "<group>"; };
-		7F4426B116C1767A00370E21 /* MKCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKCViewController.h; path = ../MKCViewController.h; sourceTree = "<group>"; };
-		7F4426B216C1767A00370E21 /* MKCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKCViewController.m; path = ../MKCViewController.m; sourceTree = "<group>"; };
-		7F4426B416C176F900370E21 /* MKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCollectionViewCell.h; sourceTree = "<group>"; };
-		7F4426B516C176F900370E21 /* MKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,10 +122,6 @@
 				7F44267F16C16A6D00370E21 /* MKAppDelegate.h */,
 				7F44268016C16A6D00370E21 /* MKAppDelegate.m */,
 				7F44268816C16A6D00370E21 /* MainStoryboard_iPhone.storyboard */,
-				7F4426B416C176F900370E21 /* MKCollectionViewCell.h */,
-				7F4426B516C176F900370E21 /* MKCollectionViewCell.m */,
-				7F4426B116C1767A00370E21 /* MKCViewController.h */,
-				7F4426B216C1767A00370E21 /* MKCViewController.m */,
 				7F44268B16C16A6D00370E21 /* MainStoryboard_iPad.storyboard */,
 				7F44268E16C16A6D00370E21 /* MKViewController.h */,
 				7F44268F16C16A6D00370E21 /* MKViewController.m */,
@@ -288,8 +278,6 @@
 				7F44267D16C16A6D00370E21 /* main.m in Sources */,
 				7F44268116C16A6D00370E21 /* MKAppDelegate.m in Sources */,
 				7F44269016C16A6D00370E21 /* MKViewController.m in Sources */,
-				7F4426B316C1767A00370E21 /* MKCViewController.m in Sources */,
-				7F4426B616C176F900370E21 /* MKCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +461,7 @@
 				7F4426AA16C16A6F00370E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F4426AB16C16A6F00370E21 /* Build configuration list for PBXNativeTarget "MilkywayTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +470,7 @@
 				7F4426AD16C16A6F00370E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

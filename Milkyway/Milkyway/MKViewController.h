@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MKViewController : UIViewController
+@interface MKViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate>
+
+@property(nonatomic, retain) IBOutlet UICollectionView *MKUICollectionView;
 
 @end
