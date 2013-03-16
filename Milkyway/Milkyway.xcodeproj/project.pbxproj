@@ -18,12 +18,12 @@
 		7F44268716C16A6D00370E21 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F44268616C16A6D00370E21 /* Default-568h@2x.png */; };
 		7F44268A16C16A6D00370E21 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F44268816C16A6D00370E21 /* MainStoryboard_iPhone.storyboard */; };
 		7F44268D16C16A6D00370E21 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F44268B16C16A6D00370E21 /* MainStoryboard_iPad.storyboard */; };
-		7F44269016C16A6D00370E21 /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F44268F16C16A6D00370E21 /* MKViewController.m */; };
 		7F44269816C16A6E00370E21 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F44269716C16A6E00370E21 /* SenTestingKit.framework */; };
 		7F44269916C16A6E00370E21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F44267016C16A6D00370E21 /* UIKit.framework */; };
 		7F44269A16C16A6E00370E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F44267216C16A6D00370E21 /* Foundation.framework */; };
 		7F4426A216C16A6F00370E21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F4426A016C16A6F00370E21 /* InfoPlist.strings */; };
 		7F4426A516C16A6F00370E21 /* MilkywayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4426A416C16A6F00370E21 /* MilkywayTests.m */; };
+		7FC35BDF16E7CCE900706676 /* MKMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC35BDE16E7CCE900706676 /* MKMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +52,14 @@
 		7F44268616C16A6D00370E21 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7F44268916C16A6D00370E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		7F44268C16C16A6D00370E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		7F44268E16C16A6D00370E21 /* MKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKViewController.h; sourceTree = "<group>"; };
-		7F44268F16C16A6D00370E21 /* MKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
 		7F44269616C16A6E00370E21 /* MilkywayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkywayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F44269716C16A6E00370E21 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7F44269F16C16A6F00370E21 /* MilkywayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MilkywayTests-Info.plist"; sourceTree = "<group>"; };
 		7F4426A116C16A6F00370E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F4426A316C16A6F00370E21 /* MilkywayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MilkywayTests.h; sourceTree = "<group>"; };
 		7F4426A416C16A6F00370E21 /* MilkywayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MilkywayTests.m; sourceTree = "<group>"; };
+		7FC35BDD16E7CCE900706676 /* MKMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMenuViewController.h; sourceTree = "<group>"; };
+		7FC35BDE16E7CCE900706676 /* MKMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +122,9 @@
 				7F44267F16C16A6D00370E21 /* MKAppDelegate.h */,
 				7F44268016C16A6D00370E21 /* MKAppDelegate.m */,
 				7F44268816C16A6D00370E21 /* MainStoryboard_iPhone.storyboard */,
+				7FC35BDD16E7CCE900706676 /* MKMenuViewController.h */,
+				7FC35BDE16E7CCE900706676 /* MKMenuViewController.m */,
 				7F44268B16C16A6D00370E21 /* MainStoryboard_iPad.storyboard */,
-				7F44268E16C16A6D00370E21 /* MKViewController.h */,
-				7F44268F16C16A6D00370E21 /* MKViewController.m */,
 				7F44267716C16A6D00370E21 /* Supporting Files */,
 			);
 			path = Milkyway;
@@ -277,7 +277,7 @@
 			files = (
 				7F44267D16C16A6D00370E21 /* main.m in Sources */,
 				7F44268116C16A6D00370E21 /* MKAppDelegate.m in Sources */,
-				7F44269016C16A6D00370E21 /* MKViewController.m in Sources */,
+				7FC35BDF16E7CCE900706676 /* MKMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
