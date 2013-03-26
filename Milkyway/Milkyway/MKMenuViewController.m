@@ -71,15 +71,8 @@
     NSArray *keys = [_categories allKeys];
     
     [cell.label setText: [keys objectAtIndex: (indexPath.section * 3) + indexPath.row]];
-    cell.ImageView.image = [UIImage imageNamed: @"Milky.png"];
+    cell.ImageView.image = [UIImage imageNamed: [NSString stringWithFormat: @"%@.png", cell.label.text]];
     return cell;
-    
-   /* CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
-    Bird *bird = [birds objectAtIndex:(indexPath.section*2 + indexPath.row)];
-    cell.label.text = bird.birdName;
-    cell.imageView.image = [UIImage imageNamed:bird.imageName];
-    return cell;
-    */
 }
 
 
