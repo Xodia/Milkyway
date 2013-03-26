@@ -10,7 +10,6 @@
 
 @interface MKMenuViewController : UICollectionViewController
 
-@property(nonatomic, assign) id <UICollectionViewDataSource> dataSource;
-@property(nonatomic, retain) NSMutableArray *categories;
+@property(nonatomic, retain) NSMutableDictionary *categories;
 
 @end
